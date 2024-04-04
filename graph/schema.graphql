@@ -1,0 +1,9 @@
+scalar Time
+
+type Query {
+    post: PostQuery! @goField(forceResolver: true)
+}
+
+type Mutation {
+    post: PostMutation! @goField(forceResolver: true)
+}
